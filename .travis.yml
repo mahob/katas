@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+  - "2.1.4"
+gemfile: Gemfile
+script:
+  - "( pushd oxytu/; bundle exec rspec; popd )"
+  - "( pushd oxytu/; bundle exec cucumber; popd )"
+  - "( pushd mahob/; bundle exec rspec; popd )"
+  - "( pushd mahob/; bundle exec cucumber; popd )"

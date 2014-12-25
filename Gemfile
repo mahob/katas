@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'active_support'
+gem 'activesupport', '~> 4.2.0'
 gem 'rspec'
 gem 'cucumber'
-gem 'ruby-debug-ide'
+gem 'magic_encoding'
